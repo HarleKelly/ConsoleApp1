@@ -10,10 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+             //ask the user the amount of pizza
             Console.WriteLine("How many pizzas would you like?");
             int answer = int.Parse(Console.ReadLine());
 
-            for (int i = 0, i < answer; i++)
+             //loop for no. times you wanted pizza
+            for (int i = 0; i < answer; i++);
             {
                 Console.WriteLine("Eat Pizza number" + answer);
             }
